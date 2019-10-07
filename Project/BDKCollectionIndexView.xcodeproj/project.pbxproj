@@ -17,11 +17,40 @@
 		C393E0651816BE6C001D7837 /* BDKCollectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C393E0641816BE6C001D7837 /* BDKCollectionIndexView.m */; };
 		C393E06A1816C060001D7837 /* BDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C393E0691816C060001D7837 /* BDKViewController.m */; };
 		C393E06D1816C33D001D7837 /* BDKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C393E06C1816C33D001D7837 /* BDKCell.m */; };
+		F9DFE3D7234B0CAE001D23BD /* BDKCollectionIndexView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DFE3D5234B0CAE001D23BD /* BDKCollectionIndexView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9DFE3DA234B0CAE001D23BD /* BDKCollectionIndexView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DFE3D3234B0CAE001D23BD /* BDKCollectionIndexView.framework */; };
+		F9DFE3DB234B0CAE001D23BD /* BDKCollectionIndexView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9DFE3D3234B0CAE001D23BD /* BDKCollectionIndexView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F9DFE3E1234B0D21001D23BD /* BDKCollectionIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = C393E0631816BE6C001D7837 /* BDKCollectionIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9DFE3E2234B0D21001D23BD /* BDKCollectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C393E0641816BE6C001D7837 /* BDKCollectionIndexView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9DFE3D8234B0CAE001D23BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C368DD671816BE1C002F428D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9DFE3D2234B0CAE001D23BD;
+			remoteInfo = BDKCollectionIndexView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9DFE3DF234B0CAE001D23BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9DFE3DB234B0CAE001D23BD /* BDKCollectionIndexView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1548B4E21AD826D000B17B7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BDKCollectionIndexView/Images.xcassets; sourceTree = "<group>"; };
-		C368DD6F1816BE1C002F428D /* BDKCollectionIndexView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDKCollectionIndexView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C368DD6F1816BE1C002F428D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C368DD721816BE1C002F428D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C368DD741816BE1C002F428D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C368DD761816BE1C002F428D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -38,6 +67,10 @@
 		C393E0691816C060001D7837 /* BDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKViewController.m; sourceTree = "<group>"; };
 		C393E06B1816C33D001D7837 /* BDKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKCell.h; sourceTree = "<group>"; };
 		C393E06C1816C33D001D7837 /* BDKCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKCell.m; sourceTree = "<group>"; };
+		F9DFE3D3234B0CAE001D23BD /* BDKCollectionIndexView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDKCollectionIndexView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DFE3D5234B0CAE001D23BD /* BDKCollectionIndexView-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDKCollectionIndexView-umbrella.h"; sourceTree = "<group>"; };
+		F9DFE3D6234B0CAE001D23BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DFE3E0234B0D02001D23BD /* BDKCollectionIndexView.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = BDKCollectionIndexView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +78,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DFE3DA234B0CAE001D23BD /* BDKCollectionIndexView.framework in Frameworks */,
 				C368DD751816BE1C002F428D /* CoreGraphics.framework in Frameworks */,
 				C368DD771816BE1C002F428D /* UIKit.framework in Frameworks */,
 				C368DD731816BE1C002F428D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DFE3D0234B0CAE001D23BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +101,7 @@
 				C393E0671816BE85001D7837 /* Resources */,
 				C393E0661816BE7A001D7837 /* Classes */,
 				C393E0621816BE5F001D7837 /* BDKCollectionIndexView */,
+				F9DFE3D4234B0CAE001D23BD /* BDKCollectionIndexView */,
 				C368DD711816BE1C002F428D /* Frameworks */,
 				C368DD701816BE1C002F428D /* Products */,
 			);
@@ -68,7 +110,8 @@
 		C368DD701816BE1C002F428D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C368DD6F1816BE1C002F428D /* BDKCollectionIndexView.app */,
+				C368DD6F1816BE1C002F428D /* Example.app */,
+				F9DFE3D3234B0CAE001D23BD /* BDKCollectionIndexView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,16 +169,58 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		F9DFE3D4234B0CAE001D23BD /* BDKCollectionIndexView */ = {
+			isa = PBXGroup;
+			children = (
+				F9DFE3E0234B0D02001D23BD /* BDKCollectionIndexView.modulemap */,
+				F9DFE3D5234B0CAE001D23BD /* BDKCollectionIndexView-umbrella.h */,
+				F9DFE3D6234B0CAE001D23BD /* Info.plist */,
+			);
+			path = BDKCollectionIndexView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F9DFE3CE234B0CAE001D23BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DFE3E1234B0D21001D23BD /* BDKCollectionIndexView.h in Headers */,
+				F9DFE3D7234B0CAE001D23BD /* BDKCollectionIndexView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C368DD6E1816BE1C002F428D /* BDKCollectionIndexView */ = {
+		C368DD6E1816BE1C002F428D /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C368DD9B1816BE1C002F428D /* Build configuration list for PBXNativeTarget "BDKCollectionIndexView" */;
+			buildConfigurationList = C368DD9B1816BE1C002F428D /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				C368DD6B1816BE1C002F428D /* Sources */,
 				C368DD6C1816BE1C002F428D /* Frameworks */,
 				C368DD6D1816BE1C002F428D /* Resources */,
+				F9DFE3DF234B0CAE001D23BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DFE3D9234B0CAE001D23BD /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = BDKCollectionIndexView;
+			productReference = C368DD6F1816BE1C002F428D /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9DFE3D2234B0CAE001D23BD /* BDKCollectionIndexView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DFE3DC234B0CAE001D23BD /* Build configuration list for PBXNativeTarget "BDKCollectionIndexView" */;
+			buildPhases = (
+				F9DFE3CE234B0CAE001D23BD /* Headers */,
+				F9DFE3CF234B0CAE001D23BD /* Sources */,
+				F9DFE3D0234B0CAE001D23BD /* Frameworks */,
+				F9DFE3D1234B0CAE001D23BD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -143,8 +228,8 @@
 			);
 			name = BDKCollectionIndexView;
 			productName = BDKCollectionIndexView;
-			productReference = C368DD6F1816BE1C002F428D /* BDKCollectionIndexView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = F9DFE3D3234B0CAE001D23BD /* BDKCollectionIndexView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,12 +240,19 @@
 				CLASSPREFIX = BDK;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ben Kreeger";
+				TargetAttributes = {
+					F9DFE3D2234B0CAE001D23BD = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = C368DD6A1816BE1C002F428D /* Build configuration list for PBXProject "BDKCollectionIndexView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C368DD661816BE1C002F428D;
@@ -168,7 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C368DD6E1816BE1C002F428D /* BDKCollectionIndexView */,
+				C368DD6E1816BE1C002F428D /* Example */,
+				F9DFE3D2234B0CAE001D23BD /* BDKCollectionIndexView */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +273,13 @@
 			files = (
 				C393E05F1816BE5B001D7837 /* InfoPlist.strings in Resources */,
 				1548B4E31AD826D000B17B7A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DFE3D1234B0CAE001D23BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +298,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9DFE3CF234B0CAE001D23BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DFE3E2234B0D21001D23BD /* BDKCollectionIndexView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9DFE3D9234B0CAE001D23BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9DFE3D2234B0CAE001D23BD /* BDKCollectionIndexView */;
+			targetProxy = F9DFE3D8234B0CAE001D23BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C393E0591816BE5B001D7837 /* InfoPlist.strings */ = {
@@ -296,6 +412,7 @@
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -312,9 +429,106 @@
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9DFE3DD234B0CAE001D23BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BDKCollectionIndexView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = BDKCollectionIndexView/BDKCollectionIndexView.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notabasement.BDKCollectionIndexView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9DFE3DE234B0CAE001D23BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BDKCollectionIndexView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = BDKCollectionIndexView/BDKCollectionIndexView.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notabasement.BDKCollectionIndexView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -330,11 +544,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C368DD9B1816BE1C002F428D /* Build configuration list for PBXNativeTarget "BDKCollectionIndexView" */ = {
+		C368DD9B1816BE1C002F428D /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C368DD9C1816BE1C002F428D /* Debug */,
 				C368DD9D1816BE1C002F428D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DFE3DC234B0CAE001D23BD /* Build configuration list for PBXNativeTarget "BDKCollectionIndexView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DFE3DD234B0CAE001D23BD /* Debug */,
+				F9DFE3DE234B0CAE001D23BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
